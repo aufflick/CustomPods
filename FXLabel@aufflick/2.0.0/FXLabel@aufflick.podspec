@@ -9,5 +9,6 @@ Pod::Spec.new do |s|
   s.source       =  { :git => 'https://github.com/aufflick/FXLabel.git', :tag => '2.0.0' }
   s.platform     =  :ios
   s.source_files =  'FXLabel'
+  s.framework    =  'QuartzCore'
   s.requires_arc =  true
 end
